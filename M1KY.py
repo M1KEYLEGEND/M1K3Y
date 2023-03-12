@@ -1525,6 +1525,6 @@ def fcrack(uid,pwx,tl):
         sys.stdout.write(f'\r[\033[1;97mSANA\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
-    sys.exit()
+        pass
 
 rehan()
